@@ -1,31 +1,25 @@
 <?php
-
 /**
- * Code Snippets - An easy, clean and simple way to add code snippets to your site.
+ * An Extension for the Connections.
  *
- * If you're interested in helping to develop Code Snippets, or perhaps
- * contribute to the localization, please see http://code-snippets.bungeshea.com
+ * @package   Connections Snippets
+ * @author    Steven A. Zahm
+ * @license   GPL-2.0+
+ * @link      http://connections-pro.com
+ * @copyright 2014 Steven A. Zahm
  *
- * @package   Code_Snippets
- * @version   1.9.1.1
- * @author    Shea Bunge <http://bungeshea.com/>
- * @copyright Copyright (c) 2012-2014, Shea Bunge
- * @link      http://code-snippets.bungeshea.com
- * @license   http://opensource.org/licenses/MIT
+ * @wordpress-plugin
+ * Plugin Name:       Connections Snippets
+ * Plugin URI:        http://connections-pro.com
+ * Description:       An Extension for the Connections.
+ * Version:           1.0
+ * Author:            Steven A. Zahm
+ * Author URI:        http://connections-pro.com
+ * Text Domain:       connections_hours
+ * License:           MIT
+ * License URI:       http://opensource.org/licenses/MIT
+ * Domain Path:       /languages
  */
-
-/*
-Plugin Name: Code Snippets
-Plugin URI:  http://code-snippets.bungeshea.com
-Description: An easy, clean and simple way to add code snippets to your site. No need to edit to your theme's functions.php file again!
-Author:      Shea Bunge
-Author URI:  http://bungeshea.com
-Version:     1.9.1.1
-License:     MIT
-License URI: license.txt
-Text Domain: code-snippets
-Domain Path: /languages/
-*/
 
 /* Exit if accessed directly */
 if ( ! defined( 'ABSPATH' ) )
